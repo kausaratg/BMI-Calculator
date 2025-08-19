@@ -1,45 +1,43 @@
-# Welcome to your Group 6👋
+# Welcome to your Group 6 Project👋
 
 
-BMI Calculator
-📌 Project Overview
+# BMI Calculator
+##  Project Overview
 
 The BMI Calculator is a simple application that allows users to calculate their Body Mass Index (BMI) based on their weight and height. It determines whether the user is underweight, normal weight, overweight, or obese according to standard BMI categories.
 
-This project was developed as part of a class assignment to practice programming concepts such as user input handling, conditional statements, and basic mathematical operations.
+This project was developed by group 6 members
+## ✨ Features
 
-✨ Features
+- Input weight (kg) and height (cm)
 
-Input weight (kg) and height (cm)
+- Automatic BMI calculation using the formula:
 
-Automatic BMI calculation using the formula:
-
-BMI = Weight (kg) / (Height (m) * Height (m))
+- BMI = Weight (kg) / (Height (m) * Height (m))
 
 
-Displays BMI result
+### Displays BMI result
 
-Shows weight category:
+- Shows weight category:
 
-Underweight: BMI < 18.5
+- Underweight: BMI < 18.5
 
-Normal: 18.5 ≤ BMI < 24.9
+- Normal: 18.5 ≤ BMI < 24.9
 
-Overweight: 25 ≤ BMI < 29.9
+- Overweight: 25 ≤ BMI < 29.9
 
-Obese: BMI ≥ 30
+- Obese: BMI ≥ 30
 
 ## Get started
 
-1. Install dependencies
+```bash
+# Clone the repository
+git clone https://github.com/kausaratg/BMI-Calculator.git
 
-   ```bash
-   npm install
-   ```
+# Go into the project directory
+cd bmi-calculator
 
-2. Start the app
-
-   ```bash
+# Run the program
    npx expo start
    ```
 
