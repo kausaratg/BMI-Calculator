@@ -40,6 +40,6 @@ cd bmi-calculator
 # Run the program
    npx expo start
    ```
-
+![BMI Calculator](projectimage.png)
 
 
