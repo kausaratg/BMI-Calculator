@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Picker } from '@react-native-picker/picker';
-import { StyleSheet, Text, TextInput, View, Button, Alert, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'; // ✅ Expo vector icons
+import { Picker } from '@react-native-picker/picker';
+import React, { useState } from 'react';
+import { Alert, Button, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 const App = () => {
   const [height, setHeight] = useState('');
@@ -38,10 +38,10 @@ const App = () => {
   };
 
   const getBMICategory = (bmi) => {
-    if (bmi <= 18.5) return 'Underweight';
-    if (bmi < 24.9) return 'Normal weight';
-    if (bmi < 29.9) return 'Overweight';
-    return 'Obesity';
+  if (bmi < 18.5) return 'Underweight';
+  if (bmi < 25) return 'Normal weight';
+  if (bmi < 30) return 'Overweight';
+  return 'Obesity';
   };
 
   const clearInputs = () => {
